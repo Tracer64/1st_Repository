@@ -1,0 +1,11 @@
+keepGoing = True
+
+while keepGoing:
+
+                     response = input("what do you have to say? \n")
+
+  if response == 'quit':
+    print('game over')
+    keepGoing = False
+  else:
+    print(response)
